@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Open SMS Relay</string>
+    <string name="permission_receive_sms_rationale">RECEIVE_SMS permission is needed to intercept incoming messages for forwarding.</string>
+    <string name="permission_send_sms_rationale">SEND_SMS permission is needed to forward matched messages to other phone numbers.</string>
+    <string name="forwarding_warning">Forwarding SMS may expose private, banking, or login messages. Only forward to destinations you fully control.</string>
+    <string name="notification_channel_name">SMS Forwarding</string>
+    <string name="notification_channel_description">Shown while the app is processing and forwarding an incoming message</string>
+    <string name="notification_forwarding_text">Processing incoming message…</string>
+</resources>

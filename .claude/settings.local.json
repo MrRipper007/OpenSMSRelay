@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./gradlew assembleDebug)",
+      "Bash(./gradlew assembleDebug --info)",
+      "Bash(./gradlew :app:checkDebugAarMetadata)",
+      "Bash(Get-ChildItem -Path \"D:\\\\New Files\\\\Personal\\\\Android Projects\\\\OpenSMSRelay\" -Recurse -Force)",
+      "Bash(Select-Object FullName)",
+      "Bash(Format-Table -HideTableHeaders)",
+      "Bash(Out-String -Width 300)",
+      "Bash(dir /s /b \"D:\\\\New Files\\\\Personal\\\\Android Projects\\\\OpenSMSRelay\")",
+      "Bash(grep -E \"\\\\.kt$|\\\\.xml$|\\\\.gradle|\\\\.properties\")",
+      "PowerShell(Get-ChildItem -Path \"D:\\\\New Files\\\\Personal\\\\Android Projects\\\\OpenSMSRelay\" -Recurse -Force | Where-Object { $_.Extension -match '\\\\.\\(kt|xml|gradle|properties\\)$' -or $_.Name -match '^\\(build|gradle|settings\\)' } | Select-Object -ExpandProperty FullName | Sort-Object)",
+      "Bash(Get-ChildItem -Path \"D:\\\\New Files\\\\Personal\\\\Android Projects\\\\OpenSMSRelay\" -Recurse -File)",
+      "Bash(gradlew assembleDebug)"
+    ]
+  }
+}
