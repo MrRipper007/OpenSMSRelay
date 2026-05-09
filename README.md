@@ -2,7 +2,6 @@
 
 A transparent, consent-based SMS forwarding utility for Android.
 
-[![Build](https://github.com/opensmsrelay/OpenSMSRelay/actions/workflows/android-build.yml/badge.svg)](https://github.com/opensmsrelay/OpenSMSRelay/actions)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 
 ---
